@@ -4,7 +4,7 @@ Plain HTML + one CSS file (`css/style.css`) + one tiny script (`js/main.js`, whi
 
 ## Add a paper
 1. Put the PDF in `papers/` (lowercase, hyphenated file name).
-2. In `research.html`, copy the commented `<li class="paper">` template at the top of the Working papers list, paste it where you want it, and fill it in. Delete any lines you don't need (coauthors, status, abstract, slides).
+2. In `research.html`, copy the commented `<li class="paper">` template at the top of the Working papers list, paste it where you want it, and fill it in. Delete any lines you don't need (coauthors, abstract, slides).
 
 ## Update the CV
 Replace `cv/Arons-CV.pdf` (keep the file name) and update the size/page count on `cv.html` if it changes.
