@@ -174,6 +174,11 @@ main section { max-width: 48rem; }
 .course-terms { color: var(--muted); text-align: right; font-size: 0.95rem; }
 .course-extra { grid-column: 1 / -1; margin-top: 0.25rem; }
 
+/* ---------- CV ---------- */
+.btn-lg { font-size: 0.95rem; padding: 0.55rem 1rem; }
+.cv-embed { display: block; width: 100%; max-width: 52rem; height: 80vh; min-height: 36rem; margin-top: 2rem; border: 1px solid var(--rule); background: var(--surface); }
+@media (max-width: 760px) { .cv-embed { display: none; } }
+
 /* ---------- Footer ---------- */
 .site-footer { border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.9rem; }
 .site-footer .inner {
